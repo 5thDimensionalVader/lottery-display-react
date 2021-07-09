@@ -1,0 +1,149 @@
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.register .leftPanel {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 40%;
+  color: white;
+  background-color: #0070fe;
+}
+
+.register .leftPanel .leftPanelLogo {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.register .leftPanel .leftPanelLogo span {
+  margin-right: 0.2rem;
+}
+.register .leftPanel .leftPanelLogo span:nth-child(2){
+  margin-top: -0.15rem;
+  font-weight: 900;
+}
+
+.register .leftPanel .leftPanelText {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.register .leftPanel .leftPanelImage {
+  width: 100%;
+  height: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.register .leftPanel .leftPanelDots {
+  margin-left: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register .rightPanel {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #ffffff;
+  color: #183a64;
+  padding: 20px;
+}
+
+.register .rightPanel .rightPanelContainer {
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelRegister {
+  margin-bottom: 3rem;
+  font-size: 24px;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelText p {
+  color: #7e7f80;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelForm {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 2rem;
+  margin-left: -10px;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelForm .rightPanelRow1 {
+  display: flex;
+
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelForm  span {
+  display: flex;
+  flex-direction: column;
+  margin: 0.7rem;
+  width: 50%;
+}
+.register .rightPanel .rightPanelContainer .rightPanelForm .rightPanelRow1 span label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelForm .rightPanelRow1 span input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #d2d3d5;
+  border-radius: 5px;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelAgreement {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelAgreement span {
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelAgreement span label {
+  font-size: 14px;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelButton {
+  margin: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelButton button {
+  width: 200px;
+  height: 40px;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border: 1px solid #0070fe;
+  background-color: #0070fe;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.register .rightPanel .rightPanelContainer .rightPanelBotText {
+  font-size: 14px;
+  margin: 0.5rem;
+  font-weight: 600;
+}
